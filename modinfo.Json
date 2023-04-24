@@ -1,0 +1,60 @@
+{
+    "Version": "1.2",
+    "ModID": "9Wind_Revised_Traders",
+    "IncompatibleIds": [
+        "NewHorizons"
+    ],
+    "ModDependencies": null,
+    "Category": {
+        "Chinese": null,
+        "English": "Gameplay",
+        "French": null,
+        "German": "Spielablauf",
+        "Italian": null,
+        "Japanese": null,
+        "Korean": null,
+        "Polish": null,
+        "Russian": null,
+        "Spanish": null,
+        "Taiwanese": null,
+        "Czech": null
+    },
+    "ModName": {
+        "Chinese": null,
+        "English": "Revised Traders",
+        "French": null,
+        "German": "Enbesianische Händler",
+        "Italian": null,
+        "Japanese": null,
+        "Korean": null,
+        "Polish": null,
+        "Russian": null,
+        "Spanish": null,
+        "Taiwanese": null,
+        "Czech": null
+    },
+    "Description": {
+        "Chinese": null,
+        "English": "Complete overhaul of traders giving them historically accurate and diverse offers",
+        "French": null,
+        "German": "Waha Desher und Kidusi Anitoni bieten Waren zum Verkauf an.",
+        "Italian": null,
+        "Japanese": null,
+        "Korean": null,
+        "Polish": null,
+        "Russian": null,
+        "Spanish": null,
+        "Taiwanese": null,
+        "Czech": null
+    },
+    "KnownIssues": null,
+    "DLCDependencies": [
+        {
+            "DLC": "LandOfLions",
+            "Dependant": "required"
+        }
+    ],
+    "CreatorName": "Spice it up-Team: Taubenangriff",
+    "CreatorContact": "https:\/\/discord.gg\/YTQGDFK",
+    "Image": null
+}
