@@ -1,8 +1,31 @@
-<!-- Eli -->
-<ModOp GUID="46" Path="/Values/Trader/Progression/*[self::EarlyGame or self::EarlyMidGame or self::MidGame or self::LateMidGame or self::LateGame or self::EndGame]/PreferedGoods" Type="Add">
-  <Item>
-    <Product>1010200</Product>
-    <PriceMultiplier>4</PriceMultiplier>
-    <ReputationMultiplier>2</ReputationMultiplier>
-  </Item>
-</ModOp>
+<ModOps>
+  <!-- Eli -->
+  <ModOp GUID="46" Path="/Values/Trader/Progression/*[self::EarlyGame or self::EarlyMidGame or self::MidGame or self::LateMidGame or self::LateGame or self::EndGame]/PreferedGoods/Item[1]" Type="Addprevsibling">
+    <Item>
+      <Product>1010200</Product>
+      <PriceMultiplier>4</PriceMultiplier>
+      <ReputationMultiplier>2</ReputationMultiplier>
+    </Item>
+  </ModOp>
+</ModOps>
+<ModOps>
+  <!-- Eli -->
+  <ModOp GUID="46" Path="/Values/Trader/Progression/*[self::EarlyMidGame or self::MidGame or self::LateMidGame or self::LateGame or self::EndGame]/PreferedGoods/Item[2]" Type="Addprevsibling">
+    <Item>
+      <Product>1010234</Product>
+      <PriceMultiplier>4</PriceMultiplier>
+      <ReputationMultiplier>2</ReputationMultiplier>
+    </Item>
+    <Item>
+      <Product>1010213</Product>
+      <PriceMultiplier>4</PriceMultiplier>
+      <ReputationMultiplier>2</ReputationMultiplier>
+    </Item>
+    <Item>
+      <Product>1010193</Product>
+      <PriceMultiplier>4</PriceMultiplier>
+      <ReputationMultiplier>2</ReputationMultiplier>
+    </Item>
+  </ModOp>
+</ModOps>
+
